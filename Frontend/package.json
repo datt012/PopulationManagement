@@ -55,7 +55,7 @@
     "lint:prettier": "prettier --check \"./src/**/*.{js,jsx,css,scss}\"",
     "lint": "yarn lint:js &&  yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
-    "prepare": "husky install"
+    "prepare": "cd .. && husky install Frontend/.husky"
   },
   "lint-staged": {
     "./src/**/*.{js,jsx,css,scss}": [
