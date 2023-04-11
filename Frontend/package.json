@@ -1,5 +1,5 @@
 {
-  "name": "project2-frontend",
+  "name": "Frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -73,7 +73,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "miragejs": "^0.1.47",
     "prettier": "^2.6.2",
     "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
