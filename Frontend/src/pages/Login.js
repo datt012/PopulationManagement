@@ -49,8 +49,7 @@ const LoginPage = () => {
       <div className="right_content">
         <div className="login-form">
           <div className="avatar"> </div>
-          <h1 className="welcome"> welcome</h1>
-
+        
           <div
             className={focus[0] ? "input-div one focus" : "input-div one"}
             onFocus={(e) => handleFocus("username")}
