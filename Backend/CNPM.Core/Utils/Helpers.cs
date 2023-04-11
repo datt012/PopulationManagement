@@ -53,9 +53,9 @@ namespace CNPM.Core.Utils
             {
                 return BCrypt.Net.BCrypt.Verify(oPassword, password);
             }
-            catch (Exception e)
-            {
-                return false;
+            catch (Exception ex) 
+            { 
+                throw new Exception(ex.Message); 
             }
         }
         public static string DecodeJwt(string jwt, string type)
